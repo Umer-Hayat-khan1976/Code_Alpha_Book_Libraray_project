@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('./images/bg1.webp'); background-repeat: no-repeat; background-size: cover ;">
+    <div class="container">
+        <header>
+            <h1 style="color: orangered;">Personal Book Library</h1>
+            <input type="text" id="searchBook" placeholder="Search for a book...">
+        </header>
+
+        <div class="book-list">
+            <h2 style="color: orangered;">Book Categories</h2>
+            <div class="categories" >
+                <button style="background-color: orangered; font-weight: bold;" class="category" data-category="fiction">Fiction</button>
+                <button style="background-color: orangered; font-weight: bold;" class="category" data-category="non-fiction">Non-Fiction</button>
+                <button  style="background-color: orangered; font-weight: bold;" class="category" data-category="science">Science</button>
+                <button style="background-color: orangered; font-weight: bold;" class="category" data-category="history">History</button>
+                <button style="background-color: orangered; font-weight: bold;" class="category" data-category="fiction">Self Help</button>
+                <button style="background-color: orangered; font-weight: bold;" class="category" data-category="non-fiction">Human Psychology</button>
+                <button style="background-color: orangered; font-weight: bold;" class="category" data-category="science">Fantasy</button>
+                <button style="background-color: orangered; font-weight: bold;" class="category" data-category="history">Biography</button>
+            </div>
+
+            <div id="books">
+                <!-- Book entries will appear here -->
+            </div>
+        </div>
+
+        <div class="borrowing-history">
+            <h2 style="color: orangered;">Borrowing History</h2>
+            <ul id="history">
+                <!-- Borrowing history will appear here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
