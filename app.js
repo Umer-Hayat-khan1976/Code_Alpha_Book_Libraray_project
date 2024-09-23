@@ -1,13 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     const books = [
-        { title: '1984', category: 'Fiction', borrowed: false },
-        { title: 'Sapiens', category: 'Non-fiction', borrowed: false },
-        { title: 'A Brief History of Time', category: 'Science', borrowed: false },
-        { title: 'The Art of War', category: 'History', borrowed: false },
+        { title: '1984', category: 'fiction', borrowed: false },
+        { title: 'To Kill a Mockingbird ', category: 'fiction', borrowed: false },
+        { title: 'Sapiens', category: 'non-fiction', borrowed: false },
+        { title: 'A Brief History of Humankind', category: 'non-fiction', borrowed: false },
+        { title: 'A Brief History of Time', category: 'science', borrowed: false },
+        { title: 'The Selfish Gene', category: 'science', borrowed: false },
+        { title: 'The Art of War', category: 'history', borrowed: false },
+        { title: 'Guns, Germs, and Steel', category: 'history', borrowed: false },
         { title: 'The Power of Habit', category: 'Self-Help', borrowed: false },
+        { title: 'Atomic Habits', category: 'Self-Help', borrowed: false },
         { title: 'Thinking, Fast and Slow', category: 'Human-psychology', borrowed: false },
+        { title: 'Influence: The Psychology of Persuasion', category: 'Human-psychology', borrowed: false },
         { title: 'The Hobbit', category: 'Fantasy', borrowed: false },
-        { title: 'The Diary of a Young Girl', category: 'Biography', borrowed: false }
+        { title: 'Harry Potter and the Sorcerer’s Stone', category: 'Fantasy', borrowed: false },
+        { title: 'The Diary of a Young Girl', category: 'Biography', borrowed: false },
+        { title: 'Steve Jobs', category: 'Biography', borrowed: false }
         
     ];
 
